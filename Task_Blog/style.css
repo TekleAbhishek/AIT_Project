@@ -1,0 +1,166 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-evenly;
+}
+.header-logo img{
+    width: 200px;
+    height: 70px;
+}
+.nav-bar ul{
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+    list-style-type: none;
+}
+.nav-bar ul a{
+    text-decoration: none;
+    font-size: large;
+    color: black;
+}
+.nav-bar ul a:hover{
+  color: aqua;
+ }
+
+h1{
+    margin: 0px;
+    display: inline;
+}
+.My-header{
+    border: 1px solid white;
+    width: 800px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    margin: 50px auto;
+    padding: 10px;
+}
+.My-header .My-Discription{
+    display: flex;
+    gap: 60px;
+}
+.My-header .My-Discription img{
+    height: 100px;
+    width: 120px;
+    border-radius: 500px;
+    border: 1px solid black;
+    margin-top: -30px;
+}
+.button{
+    width: 200px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.container{
+    width: 800px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.website1{
+    border: 3px solid whitesmoke;
+    border-radius: 10px;
+    padding: 10px;
+}
+/* .h2{
+    margin-left: 50px;
+} */
+.website2{
+    border: 3px solid whitesmoke;
+    border-radius: 10px;
+    padding: 10px;
+}
+.cards{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 800px;
+    display: flex;
+    margin: 60px auto;
+    gap: 10px;
+}
+.card1{
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(84, 163, 195);
+}
+.card2{
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    background-color: #F3CC79;
+}
+.card1 img{
+    margin-top: -50px;
+    height: 90px;
+    width: 90px;
+    border-radius: 90px;
+}
+.card2 img{
+    margin-top: -50px;
+    height: 90px;
+    width: 90px;
+    border-radius: 90px;
+}
+.discription{
+    margin-top: -20px;
+    font-size: smaller;
+}
+.lorem{
+    margin-left: 20px;
+}
+.project{
+    width: 800px;
+    margin: 0px auto;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-top: -20px;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input[type="text"]{
+    width: 45%;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    margin-left: 15px;
+    padding: 10px;
+}
+input[type="email"]{
+    width: 45%;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    padding: 10px;
+}
+.project .h2,.para{
+    margin-left: 15px;
+}
+textarea{
+    width: 95%;
+    margin-left: 15px;
+    border-radius: 12px;
+    border: 2px solid whitesmoke;
+
+}
+.live{
+    border: none;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    width: 150px;
+    padding: 10px;
+    background-color: #BB2CD9;
+    margin-left: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
