@@ -49,6 +49,7 @@ input[type="text"]{
     background: none;
     border: none;
     margin-left: -5px;
+    cursor: pointer;
 }
 .para1{
     background-color: green;
@@ -1198,4 +1199,11 @@ main .products .product-namesrow7 .product-discription .para{
     margin-top: 25px;
     margin-bottom: 0px;
     font-size: 14px;
+}
+main .nextpage{
+    text-decoration: none;
+    color: black;
+}
+main .clothes a{
+    text-decoration: none;
 }
