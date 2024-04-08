@@ -332,9 +332,6 @@ main .row-2 .row2-dollars{
     margin-top: 35px;
     margin-left: 73px;
 }
-main{
-    margin-bottom: 80px;
-}
 input[type="number"]{
     height: 25px;
     padding-left: 15px;
@@ -368,4 +365,155 @@ main .row-2 .rupees3{
     font-size: 14px;
     margin-top: 35px;
     margin-left: 162px;
+}
+main .update-continue{
+    margin-top: 55px;
+    margin-left: 1100px;
+    margin-bottom: 50px;
+}
+main .update-continue .shuffle{
+    padding: 13px;
+    width: 140px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    background-color: #218F76;
+    cursor: pointer;
+}
+main .update-continue .shuffle i{
+    margin-right: 7px;
+}
+main .update-continue .continue-shopping{
+    padding: 13px;
+    width: 170px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    margin-left: 5px;
+    background-color: #218F76;
+    cursor: pointer;
+}
+main .update-continue .continue-shopping i{
+    margin-right: 7px;
+}
+main .line1{
+    width: 650px;
+    margin-left: 80px;
+}
+main .fa-fingerprint{
+    margin-left: 750px;
+    position: relative;
+    top: -20px;
+    font-size: 29px;
+    color:rgba(0, 0, 0, 0.407);
+}
+main .line2{
+    position: relative;
+    top: -45px;
+    width: 620px;
+    margin-right: 100px;
+}
+main .shipping-details{
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 60px;
+}
+main .calculate{
+    width: 50%;
+}
+main .calculate .state{
+    display: block;
+    width: 92%;
+    padding: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.334);
+    border-radius: 4px;
+}
+main .calculate .city{
+    width: 43%;
+    margin-top: 15px;
+    padding: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.334);
+    border-radius: 4px;
+}
+main .calculate .code{
+    width: 43%;
+    margin-top: 15px;
+    margin-left: 12px;
+    padding: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.334);
+    border-radius: 4px;
+}
+main .calculate .update-button{
+    margin-top: 15px;
+    padding: 12px;
+    width: 120px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    background-color: #218F76;
+    cursor: pointer;
+}
+main .calculate .update-button i{
+    margin-right: 7px;
+}
+main .calculate .apply-coupon{
+    margin-top: 45px;
+    margin-bottom: 10px;
+}
+main .calculate .coupon{
+    width: 43%;
+    padding: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.334);
+    border-radius: 4px;
+}
+main .calculate .apply-button{
+    margin-left: 10px;
+    padding: 12px;
+    width: 100px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    background-color: #218F76;
+    cursor: pointer;
+}
+main .calculate .apply-button i{
+    transform: rotate(405deg);
+    margin-right: 5px;
+}
+main .cart-total{
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 5px;
+    width: 620px;
+    height: 250px;
+    margin-top: 20px;
+}
+main .cart-total h4{
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+main .cart-total table{
+    width: 570px;
+    margin-left: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.145);
+}
+main .cart-total table .row-data{
+    color: rgba(0, 0, 0, 0.675);
+}
+main .cart-total table .price-tag{
+    color: #218F76;
+    font-weight: bold;
+}
+main .cart-total .proceed-button{
+    margin-top: 15px;
+    margin-left: 25px;
+    padding: 12px;
+    width: 180px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    background-color: #218F76;
+    cursor: pointer;
+}
+main .cart-total .proceed-button i{
+    margin-right: 7px;
 }
